@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useLanguage } from './contexts/languageContext';
+import { data } from './data/portfolioData';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { Skills } from './components/skills';
+import { ProjectList } from './components/projectList';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { language } = useLanguage();
+  const content = data[language];
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    // A cor de fundo principal já é definida aqui
+    <div className="bg-gray-100 dark:bg-gray-900 min-h-screen transition-colors duration-300">
+      <Header />
+      <main>
+        <Hero />
+        <Skills />
+        
+        {/* Ambas as listas de projetos agora ficam dentro da mesma div e herdam a mesma cor de fundo */}
+        <ProjectList 
+            title={content.academicProjectsTitle} 
+            projects={content.academicProjects} 
+        />
+        <ProjectList 
+            title={content.personalProjectsTitle} 
+            projects={content.personalProjects} 
+        />
+        
+      </main>
+    </div>
   )
 }
 
