@@ -69,7 +69,7 @@ export const data: PortfolioData = {
       {
         title: "Steam Dashboard",
         link: "https://github.com/viniciushashizume/SteamDashboard",
-        description: "Dashboard para análise de perfis da Steam. Permite a busca de usuários tanto por seu ID numérico quanto por nome (vanity URL), exibindo informações do perfil, estatísticas gerais e um gráfico interativo com os 10 jogos mais jogados...",
+        description: "Dashboard para análise de perfis da Steam. Permite a busca de usuários tanto por seu ID numérico quanto por nome (vanity URL), exibindo informações do perfil, estatísticas gerais e um gráfico interativo com os 10 jogos mais jogados.",
         technologies: ["React", "Typescript", "Vite", "Tailwind CSS"],
       },
       {
@@ -124,7 +124,7 @@ export const data: PortfolioData = {
       {
         title: "Steam Dashboard",
         link: "https://github.com/viniciushashizume/SteamDashboard",
-        description: "Dashboard for analyzing Steam profiles. It allows searching for users by both their numeric ID and their name (vanity URL), displaying profile information, general statistics, and an interactive chart with the 10 most played games...",
+        description: "Dashboard for analyzing Steam profiles. It allows searching for users by both their numeric ID and their name (vanity URL), displaying profile information, general statistics, and an interactive chart with the 10 most played games.",
         technologies: ["React", "Typescript", "Vite", "Tailwind CSS"],
       },
       {
