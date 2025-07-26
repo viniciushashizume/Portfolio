@@ -78,6 +78,12 @@ export const data: PortfolioData = {
         description: "Extensão do protótipo do Sistema de Gestão para Companhias Aéreas, com integração à banco de dados para realizar o CRUD do sistema.",
         technologies: ["HTML", "CSS", "JavaScript", "mySQL"],
       },
+      {
+        title: "Chatbot Tradutor para WhatsApp",
+        link: "https://github.com/viniciushashizume/ChatBotTradutor",
+        description: "Construção de uma API RESTful com Python e Flask que serve como backend para um bot de tradução no WhatsApp. O sistema é arquitetado em torno de um webhook que recebe eventos de mensagens da Plataforma Cloud da Meta em tempo real. As mensagens são processadas para interpretar comandos, como a solicitação de tradução para um idioma específico ou a listagem de todos os idiomas suportados pela biblioteca deep-translator",
+        technologies: ["Python", "Flask", "RESTful API", "Webhooks", "WhatsApp Cloud API", "deep-translator", "ngrok"],
+      },
     ],
   },
   en: {
@@ -126,6 +132,12 @@ export const data: PortfolioData = {
         link: "https://github.com/viniciushashizume/ProjetoAvioes",
         description: "Extension of an Airline Management System prototype, with database integration to perform the system's CRUD operations.",
         technologies: ["HTML", "CSS", "JavaScript", "mySQL"],
+      },
+      {
+        "title": "Translator Chatbot for WhatsApp",
+        "link": "https://github.com/viniciushashizume/ChatBotTradutor",
+        "description": "Development of a RESTful API with Python and Flask that serves as the backend for a WhatsApp translation bot. The system is designed around a webhook that receives message events from the Meta Cloud Platform in real-time. The messages are processed to interpret commands, such as requesting a translation to a specific language or listing all languages supported by the deep-translator library.",
+        "technologies": ["Python", "Flask", "RESTful API", "Webhooks", "WhatsApp Cloud API", "deep-translator", "ngrok"]
       },
     ],
   },
