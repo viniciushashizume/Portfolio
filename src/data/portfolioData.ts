@@ -70,7 +70,7 @@ export const data: PortfolioData = {
         title: "Steam Dashboard",
         link: "https://github.com/viniciushashizume/SteamDashboard",
         description: "Dashboard para análise de perfis da Steam. Permite a busca de usuários tanto por seu ID numérico quanto por nome (vanity URL), exibindo informações do perfil, estatísticas gerais e um gráfico interativo com os 10 jogos mais jogados.",
-        technologies: ["React", "Typescript", "Vite", "Tailwind CSS"],
+        technologies: ["React", "Typescript", "Vite", "Tailwind CSS", "axios", "Recharts", "Node.js", "Express", "Zod"],
       },
       {
         title: "Sistema de Gestão para Companhias Aéreas",
@@ -125,7 +125,7 @@ export const data: PortfolioData = {
         title: "Steam Dashboard",
         link: "https://github.com/viniciushashizume/SteamDashboard",
         description: "Dashboard for analyzing Steam profiles. It allows searching for users by both their numeric ID and their name (vanity URL), displaying profile information, general statistics, and an interactive chart with the 10 most played games.",
-        technologies: ["React", "Typescript", "Vite", "Tailwind CSS"],
+        technologies: ["React", "Typescript", "Vite", "Tailwind CSS", "axios", "Recharts", "Node.js", "Express", "Zod"],
       },
       {
         title: "Airline Management System",
@@ -137,7 +137,7 @@ export const data: PortfolioData = {
         "title": "Translator Chatbot for WhatsApp",
         "link": "https://github.com/viniciushashizume/ChatBotTradutor",
         "description": "RESTful API with Python and Flask that serves as the backend for a WhatsApp translation bot. The system is designed around a webhook that receives message events from the Meta Cloud Platform in real-time.",
-        "technologies": ["Python", "Flask", "RESTful API", "Webhooks", "WhatsApp Cloud API", "deep-translator", "ngrok"]
+        "technologies": ["Python", "Flask", "RESTful API", "Webhooks", "WhatsApp Cloud API", "deep-translator", "ngrok"],
       },
     ],
   },
